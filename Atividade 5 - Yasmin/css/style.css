@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../img/iot-background.png");
+    background-attachment: fixed;
+    background-position: bottom;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-color: #3399ff;
+}
+
+.general {
+    position: absolute;
+    padding: 2% 5% 0 5%;
+    margin: 1% 15% 1% 3%;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.general h1 {
+    text-align: center;
+    color: #003950;
+}
+
+.general p {
+    padding: 5px;
+    text-indent: 50px;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.banner-image {
+    margin: auto;
+    height: 100%;
+}
+
+.banner-image img {
+    width: 70%;
+    height: 100%;
+    padding: 0 15% 0 15%;
+}
+
+.menu {
+    width: 100%;
+    text-align: center;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+.menu-items li {
+    display: inline-block;
+    width: auto;
+    padding: 5px 5% 5px 5%;
+}
+
+.menu-items li:hover {
+    background-color: rgba(0, 0, 0, 0.07);
+}
+
+.menu-items li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.sections{
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    margin-top: 20px;
+}
+
+.home figure {
+    width: 60%;
+    height: 220px;
+    margin: 20px 20%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.home figure img {
+    width: 90%;
+    height: 200px;
+    padding: 10px 0;
+    margin: 0 5%;
+}
+
+.history {
+    height: 570px;
+    display: flex;
+    flex-direction: row;
+}
+
+.history figure {
+    width: 40%;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 3px;
+}
+
+.history img {
+    width: 100%;
+    height: 500px;
+}
+
+.history article {
+    width: 50%;
+    padding: 0 5%;
+}
+
+.tendency {
+    width: 90%;
+    height: 601px;
+    margin: 20px 5%;
+}
+
+.tendency-images {
+    width: 100%;
+    height: 560px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tendency-images div {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+#example1 {
+    width: 90%;
+    height: 90%;
+    flex-direction: column;
+    padding: 2% 5% 0 5%;
+}
+
+#example2, #example3 {
+    flex-direction: row;
+    width: 44%;
+    height: 95%;
+}
+
+#example2  {
+    padding-left: 5%;
+    padding-right: 1%;
+}
+
+#example3  {
+    padding-right: 5%;
+    padding-left: 1%;
+}
+
+.contact {
+    width: 90%;
+    margin: 12px 5% 20px 5%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.contact address {
+    width: 50%;
+}
+
+.contact address:last-child {
+    text-align: right;
+}

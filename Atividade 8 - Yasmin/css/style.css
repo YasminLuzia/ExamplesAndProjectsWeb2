@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.general {
+    height: 600px;
+    padding: 5% 30%;
+    font-family: sans-serif;
+    background-color: rgb(220, 220, 220);
+}
+
+.general h1 {
+    text-align: center;
+    font-size: 3vw;
+    text-decoration: underline;
+    color: rgb(139, 139, 139);
+    text-shadow: 2px 2px 2px black;
+}
+
+form {
+    padding: 15px 0;
+    font-size: 1.3vw;
+}
+
+fieldset {
+    border-radius: 10px;
+    border-color: black;
+    background-color: white;
+    padding: 5px;
+}
+
+.fields {
+    padding: 10px 10px 0 10px;
+}
+
+.fields:last-child {
+    padding: 10px;
+}
+
+input {
+    padding: 3px;
+    border-style: solid;
+    border-radius: 3px;
+    border-right-color: silver;
+    border-bottom-color: silver;
+}
+
+span {
+    color: red;
+}
+
+button {
+    font-size: 1.2vw;
+    padding: 5px;
+    margin: 0 1%;
+    border-style: solid;
+    border-radius: 3px;
+    border-left-color: silver;
+    border-top-color: silver;
+}

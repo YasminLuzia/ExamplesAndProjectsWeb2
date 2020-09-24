@@ -1,0 +1,57 @@
+main {
+  width: 100%;
+}
+
+body {
+  background-color: #DCDCDC80;
+  height: auto;
+  font-family: sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+header {
+  margin-top: 50px;
+  text-align: center;
+}
+
+section {
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-color: #C0C0C0;
+  justify-content: center;
+  margin: 5%;
+}
+
+section figure {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  margin: 50px 10% 50px 10%;
+  font-size: 0.93em;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+footer address {
+  float: right;
+}
+
+@media (max-width: 1085px) {
+  section img {
+    width: 100%;
+  }
+}

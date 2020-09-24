@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Framework - Estilizando páginas Web - Aplicando classes de estilo no HTML">
+    <meta name="keywords" content="Framework, CSS, estilização, HTML, PHP">
+    <meta name="author" content="Yasmin L">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="img/x-icon">
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+
+    <title>Framework - Estilizando páginas Web</title>
+</head>
+
+<body>
+    <main class="container-fluid">
+
+        <header class="jumbotron text-center">
+            <h1>Site Bootstrap</h1>
+        </header>
+
+        <nav class="navbar navbar-inverse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="">Home</a></li>
+                <li><a href="">Empresa</a></li>
+                <li><a href="">Galeria</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </nav>
+
+        <section id="formulario-e-mapa" class="container-fluid">
+
+            <div class="row">
+                <div class="column col-md-4">
+                    <h2>Coluna 01</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia voluptates, illum voluptate aut sapiente facilis obcaecati quisquam modi totam labore molestias incidunt quos vitae dicta laboriosam eius dolor ipsam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est blanditiis aliquam sapiente, eos porro ab eum rem sit ipsa, obcaecati architecto iste dolor laboriosam illum corporis quas, corrupti tempora impedit!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est blanditiis aliquam sapiente, eos porro ab eum rem sit ipsa, obcaecati architecto iste dolor laboriosam illum corporis quas, corrupti tempora impedit!</p>
+                </div>
+                <div class="column col-md-4">
+                    <h2>Coluna 02</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque iste, neque assumenda animi repellat harum impedit corporis. Fuga praesentium ducimus aliquam alias aspernatur quos voluptas, ex, eveniet et dicta omnis.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, consectetur perferendis hic doloremque eveniet qui quis officia expedita reprehenderit, facere praesentium corporis sapiente commodi possimus vero. Reiciendis voluptate ducimus maxime!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est blanditiis aliquam sapiente, eos porro ab eum rem sit ipsa, obcaecati architecto iste dolor laboriosam illum corporis quas, corrupti tempora impedit!</p>
+                </div>
+                <div class="column col-md-4">
+                    <h2>Coluna 03</h2>
+                    <figure class="figure">
+                        <img class="figure-img img-fluid" src="img/bootstrap-icon.png" alt="">
+                    </figure>
+                </div>
+            </div>
+
+            <div class="row">
+
+            </div>
+
+            <div class="row">
+
+            </div>
+
+            <div class="row">
+                <aside class="col-md-6 col-sm-8 col-xs-12">
+                    <form action="" method="POST" name="form01">
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" name="nome" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea name="mensagem" cols="30" rows="6" class="form-control"></textarea>
+                        </div>
+                        <input type="submit" name="envia" value="Enviar" class="btn btn-info">
+                        <input type="reset" name="apaga" value="Apagar" class="btn btn-info">
+                    </form>
+                </aside>
+                <article class="col-md-6 col-sm-4 col-xs-12">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.9092373014255!2d-51.1549990497818!3d-30.010762436581388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951977095b735899%3A0x27cd6ee10f7aed04!2sQI%20Faculdade%20%26%20Escola%20T%C3%A9cnica%20%7C%20Assis%20Brasil%20%7C%20Porto%20Alegre!5e0!3m2!1spt-BR!2sbr!4v1600884442123!5m2!1spt-BR!2sbr"
+                        style="border:0; width: 100%; height: 350px" frameborder="0" ;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </article>
+            </div>
+
+        </section>
+
+        <footer class="footer navbar-fixed-bottom">
+            <div class="container text-center">
+                <address class="text-muted">Yasmin L</address>
+            </div>
+        </footer>
+
+    </main>
+</body>
+
+</html>

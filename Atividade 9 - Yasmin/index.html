@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Introdução ao Bootstrap - Relembrando os fundamentos">
+    <meta name="keywords" content="Framework, Bootstrap, HTML, CSS, Web">
+    <meta name="author" content="Yasmin L">
+    <!-- <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- <script type="text/javascript" src="js/js.js"></script> -->
+    <title>Introdução ao Bootstrap - Relembrando os fundamentos</title>
+</head>
+
+<body>
+    <header class="jumbotron text-center">
+        <h1>
+            Introdução ao Bootstrap 
+        </h1>
+    </header>
+    <section class="container col-md-12 py-3 px-3">
+        <h2 class="text-center mb-3">Dice</h2>
+        <div class="row">
+            <aside class="col-md-4 col-sm-6 col-xs-12">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque a architecto, magnam itaque molestias aliquid iure facere. In sit id dolor ipsam, voluptatum saepe distinctio minus iste quo nam quod!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis recusandae cum assumenda dolorem quod iusto vero, laborum est soluta? Odio odit enim maiores cupiditate in non recusandae eligendi maxime iste.</p>
+            </aside>
+            <aside class="col-md-4 col-sm-6 col-xs-12">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque a architecto, magnam itaque molestias aliquid iure facere. In sit id dolor ipsam, voluptatum saepe distinctio minus iste quo nam quod!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis recusandae cum assumenda dolorem quod iusto vero, laborum est soluta? Odio odit enim maiores cupiditate in non recusandae eligendi maxime iste.</p>
+            </aside>
+            <aside class="col-md-4 col-sm-12 col-xs-12">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque a architecto, magnam itaque molestias aliquid iure facere. In sit id dolor ipsam, voluptatum saepe distinctio minus iste quo nam quod!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis recusandae cum assumenda dolorem quod iusto vero, laborum est soluta? Odio odit enim maiores cupiditate in non recusandae eligendi maxime iste.</p>
+            </aside>
+        </div>
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <ul class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ul>
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/opalite-dice.jpg" alt="Conjunto de dados de pedras preciosas opalita">
+              </div>
+              <div class="carousel-item">
+                <img src="img/rose-quartz-dice.jpg" alt="Conjunto de dados de pedras preciosas quartzo rosa">
+              </div>
+              <div class="carousel-item">
+                <img src="img/sandstone-dice.jpg" alt="Conjunto de dados de pedras preciosas arenito azul">
+              </div>
+            </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+    </section>
+    
+    <footer class="page-footer py-3">
+        <address class="footer-copyright text-center">Yasmin L</address>
+    </footer>
+</body>
+
+</html>

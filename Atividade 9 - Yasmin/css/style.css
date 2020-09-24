@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.jumbotron {
+    margin-bottom: 0;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+}
+
+.container {
+    background-color: #e9ecef;
+    margin: 0;
+}
+
+.carousel {
+    margin: 30px 15% 0px 15%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 530px;
+}
+
+footer {
+    background-color: #e9ecef;
+}
