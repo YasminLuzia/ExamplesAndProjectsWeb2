@@ -1,18 +1,21 @@
 @charset "UTF-8";
 
+html {
+    scroll-behavior: smooth;
+}
+
+/* Topo */
 .jumbotron {
     margin-bottom: 0;
+    font-family: 'Fredoka One', cursive;
+    color: #522099;
+    text-shadow: 2px 2px black;
 }
 
-.container {
-    width: 100%;
-    background-color: black;
-    color: white;
-    padding: 10px 0;
-}
-
-.text-muted {
-    margin: 0;
+/* Home */
+#home p {
+    text-indent: 30px;
+    line-height: 2.8;
 }
 
 .figure {
@@ -20,7 +23,74 @@
     height: 290px;
 }
 
-img {
+.figure img {
     width: 100%;
     height: 100%;
+}
+
+/* Empresa */
+#corp {
+    text-indent: 50px;
+    line-height: 2.8;
+    padding: 0 30px;
+}
+
+#corp h2 {
+    text-transform: uppercase;
+}
+
+#corp div {
+    padding-top: 70px;
+}
+
+/* Galeria */
+#galery .container {
+    padding: 0 120px 50px 120px;
+}
+
+#galery img {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    filter: grayscale(60%);
+}
+
+#galery img:hover {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    transition: 300ms;
+    filter: grayscale(0);
+}
+
+/* Contato */
+#contact {
+    margin-bottom: 50px;
+}
+
+#contact h2{
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+/* Rodapé e botão */
+.footer {
+    background-color: black;
+}
+
+.text-muted {
+    margin: 0;
+    padding: 8px;
+    color: white;
+}
+
+.top-button {
+    right: 0;
+    position: fixed;
+    bottom: 25px;
+}
+
+.top-button img {
+    width: 50px;
+    border-radius: 5px 5px 0 0;
 }

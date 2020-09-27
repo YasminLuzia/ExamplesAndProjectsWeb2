@@ -1,74 +1,134 @@
 <!DOCTYPE html>
-<html lang="pt-br" dir="ltr">
+<html lang="zxx" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Framework - Estilizando páginas Web - Aplicando classes de estilo no HTML">
+    <meta name="description"
+        content="Atividade 10 Framework - Estilizando páginas Web - Aplicando classes de estilo no HTML">
     <meta name="keywords" content="Framework, CSS, estilização, HTML, PHP">
     <meta name="author" content="Yasmin L">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="img/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
 
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="js/js.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/js.js"></script>
 
-    <title>Framework - Estilizando páginas Web</title>
+    <title>Atividade 10 - Framework e estilização</title>
 </head>
 
 <body>
     <main class="container-fluid">
 
-        <header class="jumbotron text-center">
-            <h1>Site Bootstrap</h1>
+        <header id="top" class="jumbotron text-center">
+            <h1><em>Site Bootstrap</em></h1>
         </header>
 
         <nav class="navbar navbar-inverse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="">Home</a></li>
-                <li><a href="">Empresa</a></li>
-                <li><a href="">Galeria</a></li>
-                <li><a href="">Contato</a></li>
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#corp">Empresa</a></li>
+                <li><a href="#galery">Galeria</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
         </nav>
 
-        <section id="formulario-e-mapa" class="container-fluid">
+        <section class="container-fluid">
 
-            <div class="row">
-                <div class="column col-md-4">
+            <div id="home" class="row">
+                <div class="column col-md-4 col-sm-12 col-xs-12">
                     <h2>Coluna 01</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia voluptates, illum voluptate aut sapiente facilis obcaecati quisquam modi totam labore molestias incidunt quos vitae dicta laboriosam eius dolor ipsam.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est blanditiis aliquam sapiente, eos porro ab eum rem sit ipsa, obcaecati architecto iste dolor laboriosam illum corporis quas, corrupti tempora impedit!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est blanditiis aliquam sapiente, eos porro ab eum rem sit ipsa, obcaecati architecto iste dolor laboriosam illum corporis quas, corrupti tempora impedit!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia voluptates, illum voluptate
+                        aut sapiente facilis obcaecati quisquam modi totam labore molestias incidunt quos vitae dicta
+                        laboriosam eius dolor ipsam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est blanditiis aliquam sapiente, eos
+                        porro ab eum rem sit ipsa, obcaecati architecto iste dolor laboriosam illum corporis quas,
+                        corrupti tempora impedit!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est blanditiis aliquam sapiente, eos
+                        porro ab eum rem sit ipsa, obcaecati architecto iste dolor laboriosam illum corporis quas,
+                        corrupti tempora impedit!</p>
                 </div>
-                <div class="column col-md-4">
+                <div class="column col-md-4 col-sm-6 col-xs-12">
                     <h2>Coluna 02</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque iste, neque assumenda animi repellat harum impedit corporis. Fuga praesentium ducimus aliquam alias aspernatur quos voluptas, ex, eveniet et dicta omnis.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, consectetur perferendis hic doloremque eveniet qui quis officia expedita reprehenderit, facere praesentium corporis sapiente commodi possimus vero. Reiciendis voluptate ducimus maxime!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est blanditiis aliquam sapiente, eos porro ab eum rem sit ipsa, obcaecati architecto iste dolor laboriosam illum corporis quas, corrupti tempora impedit!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque iste, neque assumenda animi
+                        repellat harum impedit corporis. Fuga praesentium ducimus aliquam alias aspernatur quos
+                        voluptas, ex, eveniet et dicta omnis.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, consectetur perferendis hic
+                        doloremque eveniet qui quis officia expedita reprehenderit, facere praesentium corporis sapiente
+                        commodi possimus vero. Reiciendis voluptate ducimus maxime!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est blanditiis aliquam sapiente, eos
+                        porro ab eum rem sit ipsa, obcaecati architecto iste dolor laboriosam illum corporis quas,
+                        corrupti tempora impedit!</p>
                 </div>
-                <div class="column col-md-4">
+                <div class="column col-md-4 col-sm-6 col-xs-12">
                     <h2>Coluna 03</h2>
                     <figure class="figure">
                         <img class="figure-img img-fluid" src="img/bootstrap-icon.png" alt="">
                     </figure>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est blanditiis aliquam sapiente, eos
+                        porro ab eum rem sit ipsa, obcaecati architecto iste dolor laboriosam illum corporis quas,
+                        corrupti tempora impedit!</p>
                 </div>
             </div>
 
-            <div class="row">
+            <div id="corp" class="row">
+                <h2 class="text-center">Empresa</h2>
+                <div class="row">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis aliquid quisquam incidunt
+                        consequatur ducimus quae sequi temporibus dolorum beatae. Inventore quo dicta numquam nulla quos
+                        impedit illum, qui voluptatibus deleniti!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores impedit quae dolores animi
+                        itaque. Dolores voluptates necessitatibus provident voluptate. Ullam earum pariatur illo neque,
+                        possimus iste eum magnam nesciunt obcaecati!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nesciunt fugit perspiciatis minus
+                        omnis iusto aperiam, magnam deleniti, optio atque id repudiandae dolorem at ipsum excepturi
+                        iste, illo quaerat sapiente?</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum facere distinctio magnam
+                        praesentium amet modi quod excepturi ipsum laboriosam. Vitae, deserunt dicta. Quo soluta aliquid
+                        iusto aut et, ipsam alias?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum fuga quaerat quae impedit
+                        atque exercitationem quas dolorem soluta. Consequuntur ex, qui incidunt temporibus quasi
+                        nesciunt blanditiis illo quos numquam suscipit.</p>
+                </div>
+            </div>
+
+            <div id="galery" class="container">
+                <h2 class="text-center">Galeria</h2>
+                <div class="container">
+                    <div class="row">
+                        <figure class="col-md-4">
+                            <img src="img/agate-dice.jpg" alt="Um conjunto de dados feitos de ágata indiana com uma pintura detalhada inspirada em astrologia">
+                        </figure>
+                        <figure class="col-md-4">
+                            <img src="img/blue-dice.jpg" alt="Um conjunto de dados feitos da pedra precisosa olho de gato azul com uma pintura detalhada inspirada em astrologia">
+                        </figure>
+                        <figure class="col-md-4">
+                            <img src="img/cian-dice.jpg" alt="Um conjunto de dados feitos de vidro zirconia azul com uma pintura detalhada inspirada em astrologia">
+                        </figure>
+                    </div>
+                    <div class="row">
+                        <figure class="col-md-4">
+                            <img src="img/pink-dice.jpg" alt="Um conjunto de dados feitos de vidro zirconia rosa com uma pintura detalhada inspirada em astrologia">
+                        </figure>
+                        <figure class="col-md-4">
+                            <img src="img/red-dice.jpg" alt="Um conjunto de dados feitos de vidro zirconia granada com uma pintura detalhada inspirada em astrologia">
+                        </figure>
+                        <figure class="col-md-4">
+                            <img src="img/very-shiny-dice.jpg" alt="Um conjunto de dados feitos de vidro dicróico com uma pintura detalhada inspirada em astrologia">
+                        </figure>
+                    </div>
+                </div>
 
             </div>
 
-            <div class="row">
-
-            </div>
-
-            <div class="row">
+            <div id="contact" class="row">
+                <h2 class="text-center">Contato</h2>
                 <aside class="col-md-6 col-sm-8 col-xs-12">
-                    <form action="" method="POST" name="form01">
+                    <form action="#" method="POST" name="form01">
                         <div class="form-group">
                             <label for="nome">Nome</label>
                             <input type="text" name="nome" class="form-control">
@@ -79,7 +139,7 @@
                         </div>
                         <div class="form-group">
                             <label for="mensagem">Mensagem</label>
-                            <textarea name="mensagem" cols="30" rows="6" class="form-control"></textarea>
+                            <textarea name="mensagem" cols="30" rows="10" class="form-control"></textarea>
                         </div>
                         <input type="submit" name="envia" value="Enviar" class="btn btn-info">
                         <input type="reset" name="apaga" value="Apagar" class="btn btn-info">
@@ -88,15 +148,22 @@
                 <article class="col-md-6 col-sm-4 col-xs-12">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.9092373014255!2d-51.1549990497818!3d-30.010762436581388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951977095b735899%3A0x27cd6ee10f7aed04!2sQI%20Faculdade%20%26%20Escola%20T%C3%A9cnica%20%7C%20Assis%20Brasil%20%7C%20Porto%20Alegre!5e0!3m2!1spt-BR!2sbr!4v1600884442123!5m2!1spt-BR!2sbr"
-                        style="border:0; width: 100%; height: 350px" frameborder="0" ;" allowfullscreen=""
+                        style="border:0; width: 100%; height: 400px" frameborder="0" allowfullscreen=""
                         aria-hidden="false" tabindex="0"></iframe>
                 </article>
             </div>
 
         </section>
 
+        <div>
+            <a href="#top" class="top-button">
+                <img src="img/top-arrow.png" alt="Uma seta">
+            </a>
+
+        </div>
+
         <footer class="footer navbar-fixed-bottom">
-            <div class="container text-center">
+            <div class="text-center">
                 <address class="text-muted">Yasmin L</address>
             </div>
         </footer>
