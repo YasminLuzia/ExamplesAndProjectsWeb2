@@ -1,0 +1,14 @@
+{
+    "name": "danio/proj_final",
+    "description": "Projeto final de PHP.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Danielle Kensy",
+            "email": "kensydanielle@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

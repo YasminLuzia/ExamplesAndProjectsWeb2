@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  border-radius: 1rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 0;
+  height: 230px;
+  background-color: silver;
+  color: #fff;
+  font-family: verdana;
+}
+
+.home {
+  width: 100%;
+  overflow: hidden;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  text-indent: 20px;
+  line-height: 2;
+  padding: 10px;
+}
+
+
+.contato {
+  padding-bottom: 10%;
+}
+
+.botao-topo {
+  position: fixed;
+  bottom: 45px;
+  right: 4px;
+  display: scroll;
+}
+
+.rodape {
+  clear: both;
+  background-color: #222222;
+  color: #698e9d;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 1px;
+  position: fixed;
+}
+
+.galeria {
+  width: 100%;
+  background-color: rgb(228, 228, 228);
+  height: 1024px;
+}
+
+figure img {
+  padding: 1%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  height: 100%;
+  width: 95%;
+  float: left;
+}

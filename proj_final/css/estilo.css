@@ -1,0 +1,110 @@
+@author "Juliano e Danie";
+@charset "UTF-8";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(../img/background.png);
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: Arial black;
+  font-size: 30px;
+  text-align: center;
+  color: #C0DBE4;
+  text-shadow: 1px 4px 2px #5F574D;
+  background-color: #80AAFF;
+  padding: 8px;
+  /* border-radius: 25px 25px 0 0; */
+}
+
+.navbar {
+  background-color: #80aaff;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  font-family: verdana;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.topo {
+  width: 100%;
+  margin: auto;
+  height: 300px;
+  background-image: url(../img/header2.jpg);
+  background-size: 100% 100%;
+}
+
+.geral {
+  width: 960px;
+  margin: 0 auto;
+  background-color: rgba(255,255,255,0.5)
+}
+
+.ditto {
+  text-align: center;
+}
+
+.espaço {
+  line-height: 40px;
+}
+
+.zoom {
+    overflow: hidden;
+}
+
+.zoom img {
+    max-width: 90%;
+    padding: 20px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.zoom:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.zoom2 img {
+    max-width: 50%;
+    margin-left: 85px;
+    margin-top: 20px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.zoom2:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.tamanho {
+  height: 60px;
+  width: 20px;
+}
+
+footer {
+  /* margin: 0 auto; */
+  text-align: center;
+}
+
+.rodape{
+  width: 930px;
+  height: 30px;
+  background-color: #80AAFF;
+  color:#fff;
+  vertical-align: middle;
+  display: table-cell;
+  margin-top: 10px;
+}

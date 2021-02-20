@@ -1,0 +1,14 @@
+{
+    "name": "yasmin/aula-27-teste",
+    "description": "Teste dentro da pasta AulasPHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yasmin Luzia",
+            "email": "yasmin.s.luzia@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

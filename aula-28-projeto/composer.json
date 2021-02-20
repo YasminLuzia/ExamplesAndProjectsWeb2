@@ -1,0 +1,14 @@
+{
+    "name": "yasmin/aula-28-projeto",
+    "description": "Modelo para projeto - parte de PHP integrando BD",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yasmin Luzia",
+            "email": "yasmin.s.luzia@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
